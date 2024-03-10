@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\user\\\u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\practyCode\\ForthProject\\TodoApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BAC0F1-88BB-4ABC-8840-FC95E38FFE29}|TodoApi.csproj|d:\\user\\\u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\practycode\\forthproject\\todoapi\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BAC0F1-88BB-4ABC-8840-FC95E38FFE29}|TodoApi.csproj|solutionrelative:tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BAC0F1-88BB-4ABC-8840-FC95E38FFE29}|TodoApi.csproj|d:\\user\\\u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\practycode\\forthproject\\todoapi\\tododb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BAC0F1-88BB-4ABC-8840-FC95E38FFE29}|TodoApi.csproj|solutionrelative:tododb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ToDoDbContext.cs",
+              "DocumentMoniker": "D:\\user\\\u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\practyCode\\ForthProject\\TodoApi\\ToDoDbContext.cs",
+              "RelativeDocumentMoniker": "ToDoDbContext.cs",
+              "ToolTip": "D:\\user\\\u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\practyCode\\ForthProject\\TodoApi\\ToDoDbContext.cs",
+              "RelativeToolTip": "ToDoDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T18:25:36.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToDoDb.cs",
+              "DocumentMoniker": "D:\\user\\\u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\practyCode\\ForthProject\\TodoApi\\ToDoDb.cs",
+              "RelativeDocumentMoniker": "ToDoDb.cs",
+              "ToolTip": "D:\\user\\\u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\practyCode\\ForthProject\\TodoApi\\ToDoDb.cs",
+              "RelativeToolTip": "ToDoDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T18:25:32.957Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
