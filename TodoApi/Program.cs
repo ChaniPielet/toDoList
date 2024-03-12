@@ -1,6 +1,7 @@
 using TodoApi;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Builder;
 var builder = WebApplication.CreateBuilder(args);
 //הזרקה
 builder.Services.AddDbContext<ToDoDbContext>();
@@ -16,11 +17,11 @@ builder.Services.AddCors(option=>option.AddPolicy("AllowAll",builder=>{
 var app = builder.Build();
  app.UseCors("AllowAll");
  //swagger
-if (app.Environment.IsDevelopment())
- {
+//if (app.Environment.IsDevelopment())
+// {
      app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 //שליפת כל הנתונים מהמסד
  app.MapGet("/", async (ToDoDbContext db) =>{
     var data=await db.Items.ToListAsync();
@@ -59,4 +60,5 @@ app.MapDelete("/Items/{id}", async (int id, ToDoDbContext db) =>
 
     return Results.NotFound();
 });
+app.MapGet("/",()=>"api");
 app.Run();
