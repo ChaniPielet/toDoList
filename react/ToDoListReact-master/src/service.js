@@ -10,8 +10,8 @@ response,(error)=>
 {console.log(error);
   return Promise.reject(error);});
 //ניתוב דפולטיבי
-axios.defaults.baseURL = 'http://localhost:5034/Items/';
-const apiUrl = "http://localhost:5034/"
+axios.defaults.baseURL = process.env.API
+const apiUrl = process.env.API
 //שליפה
 export default {
   getTasks: async () => {
