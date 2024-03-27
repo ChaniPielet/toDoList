@@ -10,8 +10,8 @@ response,(error)=>
 {console.log(error);
   return Promise.reject(error);});
 //ניתוב דפולטיבי
-axios.defaults.baseURL = process.env.API
-const apiUrl = process.env.API
+axios.defaults.baseURL = process.env.REACT_APP_API
+const apiUrl = process.env.REACT_APP_API
 //שליפה
 export default {
   getTasks: async () => {
